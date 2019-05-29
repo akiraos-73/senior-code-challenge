@@ -1,0 +1,13 @@
+[
+  {
+  "employee" : {
+    "employeeId" : "666596ae-edd3-4847-99fe-c4518e82c86f",
+    "firstName" : "Brian",
+    "lastName" : "McMullen",
+    "position" : "Development Manager",
+    "department" : "Engineering"
+  },
+  "salary": 90000,
+  "effectiveDate": "2014-01-22T14:56:59.301Z"
+  }
+]
