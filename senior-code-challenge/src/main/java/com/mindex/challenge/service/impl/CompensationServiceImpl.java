@@ -40,7 +40,7 @@ public class CompensationServiceImpl implements CompensationService {
     public Compensation read(String id) {
         LOG.debug("Reading compensation with id [{}]", id);
 
-        Compensation compensation = compensationRepository.findByEmployeeId(id);
+        Compensation compensation = compensationRepository.findByEmployeeEmployeeId(id);
 
         if (compensation == null) {
             throw new RuntimeException("Invalid employeeId: " + id);

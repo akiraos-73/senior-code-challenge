@@ -4,7 +4,6 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 public class Compensation {
-	private String employeeId;  // Temporary test
 	private Employee employee;
 	private BigDecimal salary;
 	private Date effectiveDate;
