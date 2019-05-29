@@ -11,10 +11,6 @@ public class Compensation {
 	public Compensation() {
 	}
 	
-	public String getEmployeeId() {
-		return employee.getEmployeeId();
-	}
-	
 	public Employee getEmployee() {
 		return employee;
 	}
